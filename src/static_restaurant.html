@@ -7,6 +7,7 @@
     <title>Static Restaurant Page</title>
     <link rel="stylesheet" href="./style_restaurant.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="https://kit.fontawesome.com/406a12ef4f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -15,14 +16,18 @@
             <img class='nav_logo' src="./images/youkoso_logo_color.svg" alt="youkoso logo">
             <hr class="nav_divider">
             <ul class="menu_items">
-                <li><button class="nav_button">Desayunos<br> de cortesía</button></li>
-                <li><button class="nav_button">Desayunos<br> a la carta</button></li>
-                <li><button class="nav_button">Comida<br> a la carta</button></li>
+                <li><button class="nav_button">Desayunos de cortesía</button></li>
+                <li><button class="nav_button">Desayunos a la carta</button></li>
+                <li><button class="nav_button">Comida a la carta</button></li>
                 <li><button class="nav_button">Bebidas</button></li>
                 <li><button class="nav_button">Extras</button></li>
             </ul>
+            <a href="javascript:void(0);" class="mobile_hamburger_icon" onclick="hideMenu()">
+                <i class="fa fa-bars fa-xl"></i>
+            </a>
         </nav>
         <main class="centered_food_items">
+            <h1>Desayunos de Cortesia</h1>
             <div class="food_items_grid">
                 <div class="food_item">
                     <h2>Hot Cakes</h2>
@@ -92,5 +97,16 @@
 <footer>
     <p>Copyright © Youkoso Hotel <script>document.write(new Date().getFullYear())</script> </p>
 </footer>
+<script>
+    function hideMenu() {
+  var x = document.querySelector(".menu_items");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
 
 </html>
