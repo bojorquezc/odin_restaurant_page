@@ -115,7 +115,7 @@ footer {
 }
 
 .centered_food_items > h1 {
-    padding-bottom: 2rem;
+    margin: 2rem;
 }
 
 .food_items_grid {
@@ -126,11 +126,17 @@ footer {
 
 .food_item {
     padding: 15px;
+    line-height: 1.4rem;
 }
 
 .food_item > hr {
-    border-top: 1px solid #A3A3A3;
-    width: 300px;
+    border-color: #f3f3f3;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.food_item > h2, p {
+    padding-bottom: 1rem;
 }
 
 .food_item > ul > li {

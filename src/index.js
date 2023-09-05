@@ -1,13 +1,12 @@
-console.log('This webpack stuff works!');
+import './style_restaurant.css';
+import logo from './images/youkoso_logo_color.svg';
 
-// document.body.onload = addElement;
+import initializeWebsite from "./webpage";
+initializeWebsite();
 
-// function addElement() {
-//     const newDiv = document.createElement("div");
-//     const newContent = document.createTextNode('This is a test');
-    
-//     newDiv.appendChild(newContent);
+const youkosoLogo = new Image();
+youkosoLogo.src = logo;
+youkosoLogo.classList.add('nav_logo');
 
-//     const currentDiv = document.getElementById("div1");
-//     document.body.insertBefore(newDiv, currentDiv);
-// }
+const navBar = document.getElementById("nav_bar");
+navBar.appendChild(youkosoLogo);
