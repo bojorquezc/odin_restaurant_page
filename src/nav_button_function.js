@@ -1,5 +1,6 @@
 import { desayunosDeCortesia } from "./desayunos_de_cortesia";
 import { desayunosALaCarta } from "./desayunos_a_la_carta";
+import { comidaALaCarta } from "./comida_a_la_carta";
 
 function clearContent() {
     const menuItems = document.querySelector('.centered_food_items')
@@ -16,19 +17,18 @@ function addNavListeners() {
     const extras = document.querySelector('.extras')
 
     desayunosCortesia.addEventListener('click', function() {
-        console.log ('Desayunos de cortesia');
         clearContent();
         desayunosDeCortesia();
     });
 
     desayunosCarta.addEventListener('click', function() {
-        console.log ('Desayunos a la carta');
         clearContent();
         desayunosALaCarta();
     });
 
     comidaCarta.addEventListener('click', function() {
-        console.log ('Comida a la carta');
+        clearContent();
+        comidaALaCarta();
     });
 
     bebidas.addEventListener('click', function() {

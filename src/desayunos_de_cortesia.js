@@ -129,10 +129,14 @@ function desayunosDeCortesia() {
     menuEntryShort('Quesadillas', '3 piezas (solo queso) incluye arroz y frijoles');
 }
 
-
+function initializeSite() {
+    initializeNav();
+    desayunosDeCortesia();
+}
 
 
 export {
     initializeNav,
     desayunosDeCortesia,
+    initializeSite
 };

@@ -1,8 +1,8 @@
-function desayunosALaCarta() {
+function comidaALaCarta() {
     const main = document.querySelector('.centered_food_items')
 
     const menuTitle = document.createElement('h1');
-    menuTitle.textContent = 'Desayunos a la Carta';
+    menuTitle.textContent = 'Comida a la Carta';
     main.appendChild(menuTitle);
 
     const foodItemGrid = document.createElement('div');
@@ -46,16 +46,14 @@ function desayunosALaCarta() {
         foodItemGrid.appendChild(div);
     }
 
-    menuEntryShort('Hot Cakes - $190', '3 Piezas con una fruta');
-    menuEntryLong('Huevos Al Gusto - $190','Incluye arroz y frijoles. Opción a elegir:', 'Huevo con jamón','Huevo con salchicha', 'Huevos rancheros', 'Huevos con tocino', 'Huevos a la mexicana' )
-    menuEntryShort('Fruta de Temporada - $190', '2 frutas de temporada a elegir, incluye miel, granola y yogurt');
-    menuEntryShort('Chilaquiles - $190', 'Rojos o verdes, Incluye arroz y frijoles');
-    menuEntryShort('Sincronizada - $190', 'Incluye arroz y frijoles');
-    menuEntryShort('Quesadillas - $190', '3 piezas (solo queso) incluye arroz y frijoles');
-    menuEntryShort('Machaca A La Mexicana - $190');
-    menuEntryShort('Machaca Con Huevo - $190');
+    menuEntryLong('Todos los días', '$190 por platillo', '2 guisados diferentes a elegir con acompañamiento de sopa');
+    menuEntryLong('Sábado y Domingo', '$190 por platillo', 'Menudo', 'Pozole');
+    menuEntryLong('$190 por platillo', 'Club sandwich', 'Caldo de pollo', 'Hot dogs (2 piezas)', 'Hamburguesa');
+    menuEntryLong('$250 por platillo', 'Pollo estilo sinaloa', 'Fajitas de pollo', 'Pechuga a la plancha', 'Hamburguesa', 
+    'Milanesa de pollo','Machaca de pollo con verdura', 'Enchiladas de pollo o carne (Rojas, suizas, verdes)', 'Antojitos Mexicanos (Tostadas, Flautas, Sopes)');
+    menuEntryLong('$290 por platillo', 'Milanesa de res (Incluye papas y frijol)', 'Fajitas de res (Incluye papas y frijol)', 'Carne asada')
 }
 
 export {
-    desayunosALaCarta
+    comidaALaCarta
 };
