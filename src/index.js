@@ -1,5 +1,7 @@
 import './style_restaurant.css';
+import {initializeNav, desayunosDeCortesia} from "./desayunos_de_cortesia";
+import addNavListeners from './nav_button_function';
 
-import {initializeNav, initializeMenu} from "./homepage";
 initializeNav();
-initializeMenu();
+desayunosDeCortesia();
+addNavListeners();

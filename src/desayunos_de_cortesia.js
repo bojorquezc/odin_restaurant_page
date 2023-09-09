@@ -24,6 +24,7 @@ function initializeNav() {
     const button1 = document.createElement('button');
     button1.textContent = 'Desayunos de cortesía';
     button1.classList.add('nav_button');
+    button1.classList.add('desayunos_de_cortesia');
     listButton1.appendChild(button1);
 
     const listButton2 = document.createElement('li');
@@ -31,6 +32,7 @@ function initializeNav() {
     const button2 = document.createElement('button');
     button2.textContent = 'Desayunos a la carta';
     button2.classList.add('nav_button');
+    button2.classList.add('desayunos_a_la_carta');
     listButton2.appendChild(button2);
 
     const listButton3 = document.createElement('li');
@@ -38,6 +40,7 @@ function initializeNav() {
     const button3 = document.createElement('button');
     button3.textContent = 'Comida a la carta';
     button3.classList.add('nav_button');
+    button3.classList.add('comida_a_la_carta');
     listButton3.appendChild(button3);
 
     const listButton4 = document.createElement('li');
@@ -45,6 +48,7 @@ function initializeNav() {
     const button4 = document.createElement('button');
     button4.textContent = 'Bebidas';
     button4.classList.add('nav_button');
+    button4.classList.add('bebidas');
     listButton4.appendChild(button4);
 
     const listButton5 = document.createElement('li');
@@ -52,18 +56,21 @@ function initializeNav() {
     const button5 = document.createElement('button');
     button5.textContent = 'Extras';
     button5.classList.add('nav_button');
+    button5.classList.add('extras');
     listButton5.appendChild(button5);
 
     const hamburgerMenu = document.createElement('a');
     hamburgerMenu.setAttribute('href', 'javascript:void(0);');
     hamburgerMenu.classList.add('mobile_hamburger_icon');
     navBar.appendChild(hamburgerMenu);
-}
 
-function initializeMenu() {
     const main = document.createElement('main');
     main.classList.add('centered_food_items');
     contentDiv.appendChild(main);
+}
+
+function desayunosDeCortesia() {
+    const main = document.querySelector('.centered_food_items')
 
     const menuTitle = document.createElement('h1');
     menuTitle.textContent = 'Desayunos de cortesía';
@@ -127,5 +134,5 @@ function initializeMenu() {
 
 export {
     initializeNav,
-    initializeMenu,
+    desayunosDeCortesia,
 };
