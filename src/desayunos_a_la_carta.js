@@ -46,7 +46,7 @@ function desayunosALaCarta() {
         foodItemGrid.appendChild(div);
     }
 
-    menuEntryShort('Hot Cakes - $190', '3 Piezas con una fruta');
+    menuEntryShort('Hot Cakes - $190', 'Tres esponjosos hot cakes acompañados de tu elección de fruta fresca.');
     menuEntryLong('Huevos Al Gusto - $190','Incluye arroz y frijoles. Opción a elegir:', 'Huevo con jamón','Huevo con salchicha', 'Huevos rancheros', 'Huevos con tocino', 'Huevos a la mexicana' )
     menuEntryShort('Fruta de Temporada - $190', '2 frutas de temporada a elegir, incluye miel, granola y yogurt');
     menuEntryShort('Chilaquiles - $190', 'Rojos o verdes, Incluye arroz y frijoles');

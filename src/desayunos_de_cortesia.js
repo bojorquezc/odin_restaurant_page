@@ -117,16 +117,17 @@ function desayunosDeCortesia() {
         foodItemGrid.appendChild(div);
     }
 
-    menuEntryShort('Hot Cakes', '3 Piezas con una fruta');
+    menuEntryShort('Hot Cakes', 'Tres esponjosos hot cakes acompañados de tu elección de fruta fresca.');
     menuEntryLong('Huevos Al Gusto','Incluye arroz y frijoles. Opción a elegir:', 'Huevo con jamón','Huevo con salchicha', 'Huevos rancheros' )
-    menuEntryLong('Burritos', '2 piezas, incluye arroz y frijoles. Opción a elegir:', 'Huevo','Huevo con chorizo', 'Salchichas a la mexicana')
-    menuEntryShort('Pan Francés', 'Con una fruta');
-    menuEntryShort('Fruta de Temporada', '2 frutas de temporada a elegir, incluye miel, granola y yogurt');
-    menuEntryShort('Chilaquiles', 'Rojos o verdes, Incluye arroz y frijoles');
-    menuEntryShort('Sincronizada', 'Incluye arroz y frijoles');
-    menuEntryShort('Cereal o Avena', 'Con platano');
-    menuEntryShort('Molletes Con Queso', '2 piezas, incluye salsa bandera y arroz');
-    menuEntryShort('Quesadillas', '3 piezas (solo queso) incluye arroz y frijoles');
+    menuEntryLong('Burritos', 'Dos burritos deliciosos, incluye arroz y frijoles. Opción a elegir:', 'Huevo','Huevo con chorizo', 'Salchichas a la mexicana')
+    menuEntryShort('Pan Francés', 'Servido con tu elección de complementos, como fruta, miel o azúcar en polvo. Deliciosamente reconfortante.');
+    menuEntryShort('Fruta de Temporada', 'Dos frutas de temporada a elegir, incluye miel, granola y yogurt.');
+    menuEntryShort('Chilaquiles', 'Trozos de tortilla fritos, cubiertos de salsa roja o verde, acompañados de crema, queso, cebolla y aguacate. Un clásico mexicano. Incluye arroz y frijoles.');
+    menuEntryShort('Sincronizada', 'Dos tortillas rellenas de jamón y queso, cocinadas a la perfección. Incluye arroz y frijoles.');
+    menuEntryShort('Cereal', 'Una mezcla de cereales crujientes servida con leche y plátano fresco. Un desayuno equilibrado y lleno de sabor para comenzar tu día.');
+    menuEntryShort('Avena', 'Avena cremosa cocinada a fuego lento y endulzada con trozos de plátano fresco.');
+    menuEntryShort('Molletes Con Queso', 'Dos piezas con frijoles refritos, queso derretido y salsa, gratinadas hasta lograr una capa dorada y deliciosa. Incluye salsa bandera y arroz.');
+    menuEntryShort('Quesadillas', 'Tres piezas (solo queso) incluye arroz y frijoles. Un clásico de la cocina mexicana.');
 }
 
 function initializeSite() {

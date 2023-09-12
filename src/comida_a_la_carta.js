@@ -46,12 +46,23 @@ function comidaALaCarta() {
         foodItemGrid.appendChild(div);
     }
 
-    menuEntryLong('Todos los días', '$190 por platillo', '2 guisados diferentes a elegir con acompañamiento de sopa');
-    menuEntryLong('Sábado y Domingo', '$190 por platillo', 'Menudo', 'Pozole');
-    menuEntryLong('$190 por platillo', 'Club sandwich', 'Caldo de pollo', 'Hot dogs (2 piezas)', 'Hamburguesa');
-    menuEntryLong('$250 por platillo', 'Pollo estilo sinaloa', 'Fajitas de pollo', 'Pechuga a la plancha', 'Hamburguesa', 
-    'Milanesa de pollo','Machaca de pollo con verdura', 'Enchiladas de pollo o carne (Rojas, suizas, verdes)', 'Antojitos Mexicanos (Tostadas, Flautas, Sopes)');
-    menuEntryLong('$290 por platillo', 'Milanesa de res (Incluye papas y frijol)', 'Fajitas de res (Incluye papas y frijol)', 'Carne asada')
+    menuEntryShort('Comida del Día - $190','Deléitese con su elección de dos guisados únicos, cada uno servido con una sopa casera y calientita.');
+    menuEntryShort('Menudo - $190','Solo Sábados y Domingos - Sopa tradicional con tripa de res, chiles y especias, servida con cebolla, cilantro y limón.');
+    menuEntryShort('Pozole - $190','Solo Sábados y Domingos - Sopa espesa de maíz con cerdo, acompañada de rábanos, lechuga y limón.');
+    menuEntryShort('Club Sandwich - $190', 'Tres capas de pavo, jamón y tocino en pan tostado con aderezos frescos, servido con papas.');
+    menuEntryShort('Caldo de Pollo - $190', 'Caldo casero con pollo tierno, vegetales y fideos.');
+    menuEntryShort('Hot Dogs (2 Piezas) - $190', 'Dos hot dogs clásicos con tus aderezos favoritos.');
+    menuEntryShort('Hamburguesa - $190', 'Hamburguesa jugosa con queso, lechuga y tomate, acompañado de papas fritas.');
+    menuEntryShort('Pollo Estilo Sinaloa - $250', 'Pollo sazonado y a la parrilla con sabores únicos de Sinaloa.');
+    menuEntryShort('Fajitas de Pollo - $250', 'Tiras de pollo a la parrilla con verduras y especias, servidas con tortillas.');
+    menuEntryShort('Pechuga a la Plancha - $250', 'Pechuga de pollo a la plancha, simple y deliciosa.');
+    menuEntryShort('Milanesa de Pollo - $250', 'Pechuga empanizada y frita, acompañada de guarniciones.');
+    menuEntryLong('Machaca de Pollo con Verdura - $250', 'Pollo desmenuzado con vegetales, acompañado de guarniciones.');
+    menuEntryShort('Enchiladas de Pollo o Carne - $250', 'Tortillas rellenas de pollo o carne, bañadas en salsa y queso, acompañadas de arroz y frijoles. A elegir:', 'Rojas', 'Suizas', 'Verdes');
+    menuEntryShort('Antojitos Mexicanos - $250', 'A elegir entre Tostadas, Flautas o Sopes. Crujientes y deliciosos, acompañados de salsas frescas y guarniciones auténticas.');
+    menuEntryShort('Milanesa de Res - $290', 'Jugosa milanesa de res acompañada de papas y frijoles.');
+    menuEntryShort('Fajitas de Res - $290', 'Tiras de res a la parrilla, acompañadas de papas y frijoles.');
+    menuEntryShort('Carne Asada - $290', 'Deliciosa carne asada a la parrilla, jugosa y llena de sabor, acompañada de guarniciones frescas.');
 }
 
 export {
