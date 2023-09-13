@@ -1,5 +1,5 @@
-function desayunosALaCarta() {
-    const menuTitleName = 'Desayunos a la Carta'
+function extrasAlt() {
+    const menuTitleName = 'Extras';
     const main = document.querySelector('.centered_food_items')
 
     const menuTitle = document.createElement('h1');
@@ -47,16 +47,14 @@ function desayunosALaCarta() {
         foodItemGrid.appendChild(div);
     }
 
-    menuEntryShort('Hot Cakes - $190', 'Tres esponjosos hot cakes acompañados de tu elección de fruta fresca.');
-    menuEntryLong('Huevos Al Gusto - $190','Incluye arroz y frijoles. Opción a elegir:', 'Huevo con jamón','Huevo con salchicha', 'Huevos rancheros', 'Huevos con tocino', 'Huevos a la mexicana' )
-    menuEntryShort('Fruta de Temporada - $190', '2 frutas de temporada a elegir, incluye miel, granola y yogurt');
-    menuEntryShort('Chilaquiles', 'Trozos de tortilla fritos, cubiertos de salsa roja o verde, acompañados de crema, queso, cebolla y aguacate. Un clásico mexicano. Incluye arroz y frijoles.');
-    menuEntryShort('Sincronizada', 'Dos tortillas rellenas de jamón y queso, cocinadas a la perfección. Incluye arroz y frijoles.');
-    menuEntryShort('Quesadillas', 'Tres piezas (solo queso) incluye arroz y frijoles. Un clásico de la cocina mexicana.');
-    menuEntryShort('Machaca A La Mexicana - $190', 'Carne de res desmenuzada, cocinada con cebolla, tomate y chiles, llena de sabor y servida con tortillas calientes.');
-    menuEntryShort('Machaca Con Huevo - $190', 'Deliciosa carne de res desmenuzada y huevos revueltos, sazonados con especias, servidos con tortillas calientes.');
+    menuEntryShort('Arroz y Frijoles - $40');
+    menuEntryShort('Salsa Bandera - $40');
+    menuEntryShort('Papas Fritas - $60');
+    menuEntryShort('Dos Huevos - $30');
+    menuEntryShort('Pan de Barra (3 Piezas) - $25');
+    menuEntryShort('Guacamole con Totopos - $70');
 }
 
 export {
-    desayunosALaCarta
+    extrasAlt
 };

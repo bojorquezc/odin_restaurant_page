@@ -1,6 +1,9 @@
 import { desayunosDeCortesia } from "./desayunos_de_cortesia";
 import { desayunosALaCarta } from "./desayunos_a_la_carta";
 import { comidaALaCarta } from "./comida_a_la_carta";
+import { bebidasAlt } from "./bebidas";
+import { extrasAlt } from "./extras";
+
 
 function clearContent() {
     const menuItems = document.querySelector('.centered_food_items')
@@ -32,11 +35,13 @@ function addNavListeners() {
     });
 
     bebidas.addEventListener('click', function() {
-        console.log ('Bebidas');
+        clearContent();
+        bebidasAlt();
     });
 
     extras.addEventListener('click', function() {
-        console.log ('Extras');
+        clearContent();
+        extrasAlt();
     });
 }
 

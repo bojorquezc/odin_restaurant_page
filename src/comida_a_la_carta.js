@@ -1,8 +1,9 @@
 function comidaALaCarta() {
+    const menuTitleName = 'Comida a la Carta'
     const main = document.querySelector('.centered_food_items')
 
     const menuTitle = document.createElement('h1');
-    menuTitle.textContent = 'Comida a la Carta';
+    menuTitle.textContent = menuTitleName;
     main.appendChild(menuTitle);
 
     const foodItemGrid = document.createElement('div');

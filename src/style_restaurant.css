@@ -135,6 +135,10 @@ footer {
     border-width: 1px;
 }
 
+.food_item > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .food_item > h2, p {
     padding-bottom: 1rem;
 }
