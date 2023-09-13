@@ -48,8 +48,8 @@ function comidaALaCarta() {
     }
 
     menuEntryShort('Comida del Día - $190','Deléitese con su elección de dos guisados únicos, cada uno servido con una sopa casera y calientita.');
-    menuEntryShort('Menudo - $190','Solo Sábados y Domingos - Sopa tradicional con tripa de res, chiles y especias, servida con cebolla, cilantro y limón.');
-    menuEntryShort('Pozole - $190','Solo Sábados y Domingos - Sopa espesa de maíz con cerdo, acompañada de rábanos, lechuga y limón.');
+    menuEntryShort('Menudo - $190','Solo Sábados y Domingos - Menudo tradicional servido con cebolla, cilantro y limón.');
+    menuEntryShort('Pozole - $190','Solo Sábados y Domingos - Pozole tradicional de cerdo, acompañada de rábanos, lechuga y limón.');
     menuEntryShort('Club Sandwich - $190', 'Tres capas de pavo, jamón y tocino en pan tostado con aderezos frescos, servido con papas.');
     menuEntryShort('Caldo de Pollo - $190', 'Caldo casero con pollo tierno, vegetales y fideos.');
     menuEntryShort('Hot Dogs (2 Piezas) - $190', 'Dos hot dogs clásicos con tus aderezos favoritos.');
@@ -59,7 +59,7 @@ function comidaALaCarta() {
     menuEntryShort('Pechuga a la Plancha - $250', 'Pechuga de pollo a la plancha, simple y deliciosa.');
     menuEntryShort('Milanesa de Pollo - $250', 'Pechuga empanizada y frita, acompañada de guarniciones.');
     menuEntryLong('Machaca de Pollo con Verdura - $250', 'Pollo desmenuzado con vegetales, acompañado de guarniciones.');
-    menuEntryShort('Enchiladas de Pollo o Carne - $250', 'Tortillas rellenas de pollo o carne, bañadas en salsa y queso, acompañadas de arroz y frijoles. A elegir:', 'Rojas', 'Suizas', 'Verdes');
+    menuEntryLong('Enchiladas de Pollo o Carne - $250', 'Tortillas rellenas de pollo o carne, bañadas en salsa y queso, acompañadas de arroz y frijoles. A elegir:', 'Rojas', 'Suizas', 'Verdes');
     menuEntryShort('Antojitos Mexicanos - $250', 'A elegir entre Tostadas, Flautas o Sopes. Crujientes y deliciosos, acompañados de salsas frescas y guarniciones auténticas.');
     menuEntryShort('Milanesa de Res - $290', 'Jugosa milanesa de res acompañada de papas y frijoles.');
     menuEntryShort('Fajitas de Res - $290', 'Tiras de res a la parrilla, acompañadas de papas y frijoles.');
