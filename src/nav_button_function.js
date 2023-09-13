@@ -58,7 +58,11 @@ function addNavListeners() {
     });
 }
 
+function initializeNav() {
+    addNavListeners();
+    toggleMobileMenu();
+}
+
 export {
-    addNavListeners,
-    toggleMobileMenu
+    initializeNav
 }
