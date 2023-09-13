@@ -12,6 +12,19 @@ function clearContent() {
     }
 }
 
+function toggleMobileMenu() {
+    const mobileMenu = document.querySelector('.mobile_hamburger_icon');
+    const mobileMenuButtons = document.querySelector('.menu_items')
+
+    mobileMenu.addEventListener('click', function() {
+        if (mobileMenuButtons.style.display === "block") {
+            mobileMenuButtons.style.display = "none";
+          } else {
+            mobileMenuButtons.style.display = "block";
+          }
+    })
+  }
+
 function addNavListeners() {
     const desayunosCortesia = document.querySelector('.desayunos_de_cortesia')
     const desayunosCarta = document.querySelector('.desayunos_a_la_carta')
@@ -45,4 +58,7 @@ function addNavListeners() {
     });
 }
 
-export default addNavListeners;
+export {
+    addNavListeners,
+    toggleMobileMenu
+}
