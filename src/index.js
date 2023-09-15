@@ -1,6 +1,10 @@
 import './style_restaurant.css';
-import { initializeSite } from "./desayunos_de_cortesia";
-import { initializeNav } from './nav_button_function';
+import { createNav } from './nav_create';
+import { initializeNav } from './nav_initialize';
+import { desayunosDeCortesia } from "./desayunos_de_cortesia";
 
-initializeSite();
+// Create nav bar and add click event listeners
+createNav();
 initializeNav();
+// Load the first page in site
+desayunosDeCortesia();
