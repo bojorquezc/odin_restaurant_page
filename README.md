@@ -18,7 +18,7 @@ Project to get to know webpack, SPA (Single-page application), and ES6 modules<b
 1. Bundle site with webpack and upload to github pages.
 
 **Next Steps**
-1. Refactor code to move repeated functions that generate menu item cards.
+1. ~~Refactor code to move repeated functions that generate menu item cards.~~
 1. Add a contact page with map.
 1. Improve mobile menu to be easier to use.
 
